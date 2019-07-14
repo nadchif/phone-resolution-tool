@@ -1,0 +1,13 @@
+*.exe
+obj
+out
+bin
+*.layout
+*.depend
+*.old
+*.h.bak
+*.cpp.bak
+*.obr
+*.cpj
+*.cpj.bak
+WIN32
