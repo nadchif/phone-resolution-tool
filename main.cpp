@@ -29,7 +29,7 @@ int main()
     appCore.setWindowTitle("Resolution and DPI Set Tool 2.0.1");
 
     //check requirements
-    if (appCore.fileExists("adb.exe"))
+    if (!appCore.fileExists("adb.exe"))
     {
         appCore.clearDisplay();
         std::system("color 0C");
