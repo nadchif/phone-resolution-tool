@@ -1,4 +1,5 @@
-**Important:** Changing resolution and DPI settings can make certain apps unusable. We have provided an option to reset your resolution and DPI settings in the tool.
+**Important:** Changing resolution and DPI settings can make certain apps unusable. This app has an option to reset your resolution and DPI settings in the tool.
+
 The tool was initially designed for Samsung S5, but it could work on other devices. It has now been tested on other Android devices, and it worked with no issues so far.
 
 
