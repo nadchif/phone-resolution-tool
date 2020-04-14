@@ -314,7 +314,7 @@ void AppCore::showMenuEndMenu()
     {
         userChoice = getch();
         if (userChoice == "y" || userChoice == "Y")
-        {            
+        {
             this->clearDisplay();
             std::cout << "Rebooting..." << std::endl;
             system("adb reboot");
@@ -444,19 +444,19 @@ bool AppCore::showEnterCustomDPI()
     while (true)
     {
         userChoice = getch();
-        system("color 0F");
         if (userChoice == "y" || userChoice == "Y")
         {
+            system("color 0F");
             this->promptDPI();
             return true;
             break;
         }
         if (userChoice == "n" || userChoice == "N")
         {
-            return false;
             break;
         }
     }
+    system("color 0F");
     return false;
 }
 
@@ -515,9 +515,9 @@ bool AppCore::showEnterCustomResolution()
     while (true)
     {
         userChoice = getch();
-        system("color 0F");
         if (userChoice == "y" || userChoice == "Y")
         {
+            system("color 0F");
             this->promptWidthPixels();
             this->promptHeightPixels();
             this->clearDisplay();
@@ -531,10 +531,10 @@ bool AppCore::showEnterCustomResolution()
         }
         if (userChoice == "n" || userChoice == "N")
         {
-            return false;
             break;
         }
     };
+    system("color 0F");
     return false;
 }
 
