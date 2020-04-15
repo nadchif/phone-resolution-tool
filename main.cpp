@@ -26,7 +26,7 @@ int main()
     appCore.setMsgBoxWidth(consoleWidth);
 
     //set window title
-    appCore.setWindowTitle("Resolution and DPI Set Tool 2.0.1");
+    appCore.setWindowTitle("Resolution and DPI Set Tool 2.1.0");
 
     //check requirements
     if (!appCore.fileExists("adb.exe"))

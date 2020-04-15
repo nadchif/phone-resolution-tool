@@ -344,6 +344,7 @@ void AppCore::showMenuResolutionMenu()
     std::cout << std::endl;
     std::cout << " 7. Reset All (Resolution and DPI)" << std::endl;
     std::cout << " 8. Do not change resolution" << std::endl;
+    std::cout << " 9. Exit" << std::endl;
     this->drawStaightLine(this->msgBoxWidth);
     std::cout << std::endl;
     std::cout << "Enter a choices>";
@@ -397,6 +398,11 @@ void AppCore::showMenuResolutionMenu()
         if (userChoice == "8")
         {
             this->showMenuDPIMenu();
+            break;
+        }
+        if (userChoice == "9")
+        {
+            this->clearDisplay();
             break;
         }
     }
