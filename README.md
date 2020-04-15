@@ -17,7 +17,7 @@ Devices today come with high resolution and DPI settings. Sometimes a user may w
 
 GPL-3.0
 
-App Icon made by [Smashicons]https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/)
+App Icon made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [www.flaticon.com](https://www.flaticon.com/)
 
 ### Contributions
 Contributions and suggestions are very welcome and wanted. I try to respond to pull requests within 48 hours. For more information see [CONTRIBUTING.md](https://github.com/nadchif/phone-resolution-tool/blob/master/CONTRIBUTING.md).
