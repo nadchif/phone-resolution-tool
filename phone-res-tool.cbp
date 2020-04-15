@@ -40,10 +40,10 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="AppCore.h" />
-		<Unit filename="icon.rc">
+		<Unit filename="main.cpp" />
+		<Unit filename="main.rc">
 			<Option compilerVar="WINDRES" />
 		</Unit>
-		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
 </CodeBlocks_project_file>

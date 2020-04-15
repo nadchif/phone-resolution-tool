@@ -10,7 +10,7 @@ The tool was initially designed for Samsung S5, but it could work on other devic
 
   You can [get it here](https://forum.xda-developers.com/showthread.php?t=2317790) by [@shimp208](https://forum.xda-developers.com/member.php?u=3558630) on XDA
   
-  or you can get Android platform tools [here](https://developer.android.com/studio/releases/platform-tools.html)
+  or you can get the latest Android platform tools [here](https://developer.android.com/studio/releases/platform-tools.html)
 * Resolution and DPI Set Tool (this app)
 
 ### Instructions:
