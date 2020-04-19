@@ -3,7 +3,8 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-![C/C++ CI](https://github.com/nadchif/phone-resolution-tool/workflows/C/C++%20CI/badge.svg)
+![C/C++ CI](https://github.com/nadchif/phone-resolution-tool/workflows/C/C++%20CI/badge.svg) [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
+
 
 ### Change phone resolution and DPI without root
 
