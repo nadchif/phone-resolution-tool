@@ -15,6 +15,15 @@
         "test",
         "maintenance"
       ]
+    },
+    {
+      "login": "davidtownsley1",
+      "name": "davidtownsley1",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/63746726?v=4",
+      "profile": "https://github.com/davidtownsley1",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
