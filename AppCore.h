@@ -68,13 +68,13 @@ int AppCore::getMsgBoxWidth()
 * Setters
 *******************/
 
-// sets the width (character columns) for drawing functions
+// Sets the width (character columns) for drawing functions.
 void AppCore::setMsgBoxWidth(int width)
 {
     this->msgBoxWidth = width;
 }
 
-// sets the App Window title
+// Sets the App Window title.
 void AppCore::setWindowTitle(std::string title)
 {
     this->windowTitle = title;
@@ -85,13 +85,13 @@ void AppCore::setWindowTitle(std::string title)
 * Other functions
 *******************/
 
-// clears console display
+// Clears console display.
 void AppCore::clearDisplay()
 {
     std::system("cls");
 }
 
-// draws a straight line for the specified number (width) of characters
+// Draws a straight line for the specified number (width) of characters.
 void AppCore::drawStaightLine(int width)
 {
     for (int i = 0; i < width; i++)
@@ -100,37 +100,37 @@ void AppCore::drawStaightLine(int width)
     }
 }
 
-// prints out a top left corner line
+// Prints out a top left corner line.
 void AppCore::drawTopLeftCorner()
 {
     std::cout << "\xC9";
 }
 
-// prints out a bottom right corner line
+// Prints out a bottom right corner line.
 void AppCore::drawTopRightCorner()
 {
     std::cout << "\xBB";
 }
 
-// prints out a bottom left corner line
+// Prints out a bottom left corner line.
 void AppCore::drawBottomLeftCorner()
 {
     std::cout << "\xC8";
 }
 
-// prints out a bottom right corner line
+// Prints out a bottom right corner line.
 void AppCore::drawBottomRightCorner()
 {
     std::cout << "\xBC";
 }
 
-// prints a single vertical line;
+// Prints a single vertical line.
 void AppCore::drawVerticalLine()
 {
     std::cout << "\xBA";
 }
 
-// prints out a box with a centered message
+// Prints out a box with a centered message.
 void AppCore::drawMessageBox(std::string message)
 {
     this->drawTopLeftCorner();
@@ -153,7 +153,7 @@ void AppCore::drawMessageBox(std::string message)
     std::cout << std::endl;
 }
 
-// centers a message by padding the sides with spaces
+// Centers a message by padding the sides with spaces.
 std::string AppCore::centerConsoleMessage(std::string message, unsigned int consoleWidth)
 {
     if(message.length() > consoleWidth)
@@ -174,7 +174,7 @@ std::string AppCore::centerConsoleMessage(std::string message, unsigned int cons
     return returnString;
 }
 
-// executes the ADB apply DPI command and shows exit menu
+// Executes the ADB apply DPI command and shows exit menu.
 void AppCore::applyDPI(std::string dpi)
 {
     this->clearDisplay();
@@ -183,7 +183,7 @@ void AppCore::applyDPI(std::string dpi)
     system(("adb shell wm density " + dpi).c_str());
     this->showMenuEndMenu();
 }
-// executes the ADB apply resolution command and advances to show the DPI settings
+// Executes the ADB apply resolution command and advances to show the DPI settings.
 void AppCore::applyResolution(std::string resolution)
 {
     this->clearDisplay();
@@ -193,14 +193,14 @@ void AppCore::applyResolution(std::string resolution)
     this->showMenuDPIMenu();
 }
 
-// checks if specified file exists.
+// Checks if specified file exists.
 bool AppCore::fileExists(const std::string &file)
 {
     struct stat buf;
     return (stat(file.c_str(), &buf) == 0);
 }
 
-// executes ADB command to reset all settings
+// Executes ADB command to reset all settings.
 void AppCore::resetAll()
 {
     this->clearDisplay();
@@ -215,7 +215,7 @@ void AppCore::resetAll()
     this->showMenuEndMenu();
 }
 
-// prints out DPI settings Menu
+// Prints out DPI settings menu.
 void AppCore::showMenuDPIMenu()
 {
     std::string userChoice;
@@ -293,7 +293,7 @@ void AppCore::showMenuDPIMenu()
     };
 }
 
-// prints out the Application exit menu
+// Prints out the Application exit menu.
 void AppCore::showMenuEndMenu()
 {
     std::string userChoice;
@@ -329,7 +329,7 @@ void AppCore::showMenuEndMenu()
     system("exit");
 }
 
-// prints out the Resolution settings Menu
+// Prints out the Resolution settings Menu.
 void AppCore::showMenuResolutionMenu()
 {
     std::string userChoice;
@@ -408,7 +408,7 @@ void AppCore::showMenuResolutionMenu()
     }
 }
 
-// prompts user to enter custom DPI
+// Prompts user to enter custom DPI.
 int AppCore::promptDPI()
 {
     int custdpi;
@@ -434,7 +434,7 @@ int AppCore::promptDPI()
     return custdpi;
 }
 
-// prints out the Enter Custom DPI menu
+// Prints out the Enter Custom DPI menu.
 bool AppCore::showEnterCustomDPI()
 {
     std::string userChoice;
@@ -466,7 +466,7 @@ bool AppCore::showEnterCustomDPI()
     return false;
 }
 
-// prompts user to enter width in pixels
+// Prompts user to enter width in pixels.
 int AppCore::promptWidthPixels()
 {
     this->clearDisplay();
@@ -485,7 +485,7 @@ int AppCore::promptWidthPixels()
     }
 }
 
-// prompts user to enter height in pixels
+// Prompts user to enter height in pixels.
 int AppCore::promptHeightPixels()
 {
     this->clearDisplay();
@@ -506,7 +506,7 @@ int AppCore::promptHeightPixels()
     }
 }
 
-// prints out the Enter Custom Resolution menu
+// Prints out the Enter Custom Resolution menu.
 bool AppCore::showEnterCustomResolution()
 {
     std::string userChoice;
