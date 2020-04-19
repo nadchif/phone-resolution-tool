@@ -14,7 +14,7 @@ The tool was initially designed for Samsung S5, but it could work on other devic
 * Resolution and DPI Set Tool (this app)
 
 ### Instructions:
-1. Download the Resolution and DPI Set Tool [here](https://drive.google.com/file/d/1Z9Hed4TrsdPZctBhqjzYwgKLKTAFvwpK/view?usp=drivesdk) 
+1. Download the Resolution and DPI Set Tool [here](https://forum.xda-developers.com/attachment.php?attachmentid=4995301&d=1586976826) 
   
     or [Clone this Source Code](https://github.com/nadchif/phone-resolution-tool/archive/master.zip) and compile it.
 
