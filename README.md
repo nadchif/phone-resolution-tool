@@ -8,7 +8,9 @@
 
 ### Change phone resolution and DPI without root
 
-[Visit Page](https://forum.xda-developers.com/galaxy-s5/general/tool-change-phone-resolution-dpi-root-t3582863)
+![screenshot](https://raw.githubusercontent.com/nadchif/phone-resolution-tool/master/screenshots/screenshot1.jpg)
+
+[Visit XDA Page](https://forum.xda-developers.com/galaxy-s5/general/tool-change-phone-resolution-dpi-root-t3582863)
 
 Devices today come with high resolution and DPI settings. Sometimes a user may want to customize the settings for several reasons like:
 1. To fit more content on the screen.
