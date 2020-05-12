@@ -4,7 +4,7 @@
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ![C/C++ CI](https://github.com/nadchif/phone-resolution-tool/workflows/C/C++%20CI/badge.svg) [![first-timers-only](https://img.shields.io/badge/first--timers--only-friendly-blue.svg?style=flat-square)](https://www.firsttimersonly.com/)
-[<img src="https://img.shields.io/badge/slack-@ossenthusiasts-brown.svg?logo=slack">](https://ossenthusiasts.slack.com/)
+[<img src="https://img.shields.io/badge/slack-@ossenthusiasts-brown.svg?logo=slack">](https://join.slack.com/t/ossenthusiasts/shared_invite/zt-eh9g0u7k-l2uUmCCBhUTHY8EWZFShIw)
 
 ### Change phone resolution and DPI without root
 
